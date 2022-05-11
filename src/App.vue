@@ -1,30 +1,46 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <NavbarApp :logo='logo_src' :alt='app_name'/>
   <router-view/>
 </template>
 
+<script>
+import NavbarApp from './components/NavbarApp.vue'
+
+export default {
+  components: { NavbarApp},
+
+  data() {
+    return{
+      logo_src: '/img/logo.png',
+      app_name: 'Make your burger'
+    }
+  }
+  
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+  /* =============== Global Vars =============== */
+  :root{
+    --font-family: Helvetica;
 
-nav {
-  padding: 30px;
-}
+    --first-color: #fcba03;
+    --dark-color:  #222;
+  }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  /* =============== Global Classes =============== */
+  h2{
+    text-align: center;
+    font-size: 42px;
+    margin: 1rem 0;
+    color: var(--dark-color);
+  }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+  /* =============== Reset Styles =============== */
+  *{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 </style>

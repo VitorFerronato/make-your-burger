@@ -89,6 +89,18 @@
       ],
       "status": "Solicitado",
       "id": 1
+    },
+    {
+      "nome": "Maria",
+      "pao": "Integral",
+      "carne": "Veggie burger",
+      "opcionais": [
+        "Tomate",
+        "Pepino",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 2
     }
   ]
 }

@@ -1,19 +1,32 @@
-# make-your-burger
+# Make your burger
 
-## Project setup
+
+## 💻 Projeto
+<p>
+  O Make your burger é um aplicação baseada em componentes, temos o frontend que é onde o cliente preenche o formulário do hamburger, esse pedido vai para o banco de dados e retorna ao dashboard de através de uma API com todos os pedidos.
+</p>
+<p>
+  O dashboard de pedidos também tem um espécie de CRUD, onde podemos deletar e alterar pedidos.
+</p>
+
+<p align="center">
+  <img alt="Make your burger" src="capa.png" width="100%">
+</p>
+
+## 🚀 Tecnologias
+* VueJs
+* Vue Router
+* JSON server API
+* HTMl | CSS | JAVASCRIPT
+
+## :wrench: Project setup
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+```
+npm run backend
+```
+* Em outro terminal
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

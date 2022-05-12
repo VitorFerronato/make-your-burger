@@ -9,6 +9,10 @@
   O dashboard de pedidos também tem um espécie de CRUD, onde podemos deletar e alterar pedidos.
 </p>
 
+<p align="center">
+  <img alt="Make your burger" src="capa.png" width="100%">
+</p>
+
 ## 🚀 Tecnologias
 * VueJs
 * Vue Router
@@ -22,6 +26,7 @@ npm install
 ```
 npm run backend
 ```
+* Em outro terminal
 ```
 npm run serve
 ```

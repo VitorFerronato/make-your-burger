@@ -1,4 +1,7 @@
 # Make your burger
+<p align="center" >
+  <img alt="Rocket.Q" src="capa.png" width="500px">
+</p>
 
 
 ## 💻 Projeto

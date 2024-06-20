@@ -4,15 +4,15 @@
 </p>
 
 
-## 💻 Projeto
+## 💻 The project
 <p>
-  O Make your burger é um aplicação baseada em componentes, temos o frontend que é onde o cliente preenche o formulário do hamburger, esse pedido vai para o banco de dados e retorna ao dashboard de através de uma API com todos os pedidos.
+  Make your burger is a component-based application, we have the frontend where the customer fills out the hamburger form, this request goes to the database and returns to the dashboard through an API with all requests.
 </p>
 <p>
-  O dashboard de pedidos também tem um espécie de CRUD, onde podemos deletar e alterar pedidos.
+  The orders dashboard also has a kind of CRUD, where we can delete and change orders.
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 * VueJs
 * Vue Router
 * JSON server API
